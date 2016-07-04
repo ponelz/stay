@@ -1,0 +1,334 @@
+                                                             /*body*/
+body{ 
+color:#000;
+font-family:latin wide;
+background-color:#2f2f2f;
+}
+
+
+
+ul li{padding-top:40px;
+padding:10px;
+font-size:20px;
+color:#000;
+display:inline;
+}
+
+
+
+@media(max-width:500px){
+	body 
+	a:hover{
+		text-decoration:none;
+	}
+}
+
+
+
+
+
+
+                                                             /*top*/
+.top{
+	padding:20px;
+	background-color:#FFF056;
+	border-bottom:5px solid #fff;
+
+}
+.top a{
+ font-size:20px;
+ color:#000;
+ text-align:center;
+}
+
+#home a:hover{
+color:#000;
+/*transition: all 0.5s ease;*/
+border-bottom:5px solid #000;
+text-decoration:none;
+
+}
+#home{
+	text-align:right;
+}
+
+#com{
+color:#0000FF;
+border-bottom:5px solid #000;
+text-transform:lowercase;
+font-size:20px;
+
+}
+
+.stay{
+	font-size:30px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:segoe print;
+}
+
+.stay a:hover{
+text-decoration:none;
+}
+
+@media(max-width:1000px){
+	.top{
+		padding:10px;
+		font-size:15px;
+		
+	}
+	
+}
+
+
+
+
+
+                                                       /*sub*/
+.sub{
+	background-size:cover;
+	text-transform:capitalize;
+	color:#fff;
+	font-size:40px;
+	text-align:center;
+	padding:50px;
+}
+
+@media(max-width:1000px){
+	.sub{
+
+	}
+	.sub h1{
+		padding:10px;
+		font-size:30px;
+	}
+.sub h2{
+font-size:25px;
+
+}
+}
+
+
+
+
+
+                                                      /*finder*/
+.finder{
+font-size:35px;
+margin:30px 350px;
+color:#fff;
+background-color:#000;
+padding:80px 10px;
+opacity:0.7;
+
+}
+.finder a{
+	background-color:#2f2f2f;
+	color:#FFF;
+	margin-top:20px;
+	padding:10px 20px;
+}
+
+form{
+	color:#000;
+}
+
+
+
+
+
+
+                                                      /*main*/
+
+#best{
+	color:#000;
+	font-size:50px;
+}
+
+#image{
+	height:300px;
+	width:450px;
+}
+
+#old{
+font-size:15px;
+text-decoration:line-through;
+font-style:italic;
+margin-bottom:20px;
+}
+#new{
+	font-size:30px;
+	color:red;
+	font-weight:bold;
+
+}
+
+#dis{
+  z-index:100;
+	position:absolute;
+	left:90px;
+	top:63px;
+	font-weight:bold;
+	color:#000;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	background-color:#00FFFA;
+	padding:10px 15px;
+	text-transform:uppercase;
+	text-align:center;
+}
+#per{
+	font-weight:bolder;
+	font-size:20px;
+}
+
+.main{
+	
+	text-align:center;
+	background-color:#fff056;
+	padding:25px 15px; 
+	border-bottom:5px solid #fff;
+	border-top:5px solid #fff;
+	text-transform:capitalize;
+}
+#try{
+  position:absolute;
+  left:90px;
+  font-size:11px;
+  top:130px;
+  font-weight:bold;
+  color:#00FFFA;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  background-color:#1300AF;
+  padding:35px 4px 15px 4px;
+  text-align:center;
+  text-transform:uppercase;
+  opacity:0.7;
+}
+
+#booking{
+	font-size:20px;
+	font-weight:bold;
+	border:1px solid #191919;
+	color:#000;
+	font-family:impact regular;
+	padding:10px 15px;
+	border-radius:5px;
+}
+#round{
+	border: 5px solid #2f2f2f;
+	padding:0px;
+}
+
+
+
+
+
+
+                                              /*cities*/
+
+.cities{
+	padding:20px;
+	background-color:#191919;
+}
+
+
+.cities h2{
+	padding-bottom:20px; 
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+
+}
+
+.cities a{
+opacity:0.5;
+}
+
+.cities a:hover{
+	opacity:1;
+}
+
+
+#name{
+	top:130px;
+	left:190px;
+	font-family:latin wide;
+	position:absolute;
+	color:#fff;
+	font-size:50px;
+	padding:10px;
+	border:3px solid #fff;
+	text-transform:capitalize;
+}
+
+#img{
+	width:100%;
+	height:50%;
+}
+
+@media(max-width:1000px){
+	.cities #img{
+width:500px;
+height:400px;
+padding:20px;
+
+	}
+	
+}
+
+
+
+
+                                                 /*support*/
+.support{
+font-family:latin-wide;
+padding:50px;
+text-transform:capitalize;
+font-size:30px;
+background-color:#fff056;
+text-align:center;
+border-top:5px solid #fff;
+border-bottom:5px solid #fff;
+
+}
+.support a:hover{
+	border-bottom:5px solid #000;
+	text-decoration:none;
+}
+@media(max-width:500px){
+	.support{
+		padding:10px;
+		font-size:15px;
+		text-decoration:none;
+	}
+}
+
+
+                                                      /*footer*/
+.footer{
+	padding:10px;
+
+}
+.footer li{
+	font-size:20px;
+	font-style:sans-serif;
+	padding:15px;
+	color:#fff;
+	text-transform: capitalize;
+	text-decoration:underline;
+}
+.red{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
